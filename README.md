@@ -7,11 +7,11 @@ Teste de seleção para vaga PHP
 ## Passos pra rodar esse projeto
   - Se tiver docker e docker-compose instalados, execute docker-compose up -d, caso contrário precisa de uma versão do PHP >= 5.6 e um banco de dados mysql chamado php-test (se desejar, pode criar com outro nome e alterar no código fonte)
   - No arquivo app/Config.php, precisam ser definidos os seguintes campos de acordo com suas configurações: 
-    define('HOST', 'db-host'); //com o docker, precisa ser informado o ip pra conectar
-    define('USER', 'db-user');
-    define('PASS', 'db-pass');
-    define('DBSA', 'db-dbsa'); 
-    define('PORT', 'db-port');
+    - define('HOST', 'db-host'); //com o docker, precisa ser informado o ip pra conectar
+    - define('USER', 'db-user');
+    - define('PASS', 'db-pass');
+    - define('DBSA', 'db-dbsa'); 
+    - define('PORT', 'db-port');
   - Executar o arquivo endereco.sql para criar a tabela endereco, que é utilizada na aplicação.
 
 # Requisitos:
